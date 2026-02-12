@@ -82,5 +82,4 @@ Key points:
 
 ## RESULT
 - The IV characteristics of the fiber optic LED were studied.  
-- The graph of forward current vs. optical power was plotted.  
-- The photo detector response was analyzed.  
+
