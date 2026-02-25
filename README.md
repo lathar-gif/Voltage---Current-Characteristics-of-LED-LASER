@@ -36,32 +36,13 @@ Key points:
   - Light must enter within this cone to be transmitted properly; otherwise, it refracts out of the core.  
 
 ---
+<img width="1839" height="1404" alt="image" src="https://github.com/user-attachments/assets/59e67420-5669-4b13-a236-6bbe95698de7" />
 
 ## PROCEDURE
-1. Refer to the block diagram and make the connections.  
-2. Keep all switch faults in **OFF** position.  
-3. Loosen the cap of LED SFH756V (660 nm), insert 1-meter fiber, and tighten.  
-4. Loosen the cap of Photo Diode SFH250V, insert fiber end, and tighten.  
-5. Set jumpers:  
-   - JP1 → short for +12 V  
-   - JP2 → sine wave  
-   - JP3 → short for +12 V  
-   - JP4 → TX1 on FCL-01  
-6. Keep switch SW2 in **VI** position on FCL-01.  
-7. Connect voltmeter and current meter as per block diagram.  
-8. Switch on the power supply.  
-9. Set potentiometers:  
-   - P3 → maximum (anti-clockwise) → controls LED current  
-   - P4 → fully clockwise → controls LED bias voltage  
-10. Rotate P3 slowly, measure forward current and voltage, and plot IV characteristics.  
-11. For each reading:  
-    - Calculate electrical power = \( I \times V \).  
-    - Assume efficiency ≈ 1.15% (from datasheet: 200 mW optical power at 10 mA).  
-    - Compute optical power coupled into fiber.  
-12. Plot:  
-    - Forward current vs. optical power of LED.  
-    - Receiver current vs. optical power of LED.  
-13. Repeat for all transmitter & receiver combinations.  
+<img width="1600" height="881" alt="image" src="https://github.com/user-attachments/assets/700d7f03-9e20-4c1e-8a33-0b6b89e33085" />
+
+<img width="1355" height="1430" alt="image" src="https://github.com/user-attachments/assets/83a4333e-5ab3-42e1-913a-cce2b6c0864e" />
+
 
 ---
 
